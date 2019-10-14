@@ -1,5 +1,5 @@
 export PROJECT_DIR = $(shell "pwd")
-export BUILD_DIR = $(PROJECT_DIR)/build
+export BUILD_DIR = $(PROJECT_DIR)
 export TEST_DIR = $(PROJECT_DIR)/tests
 export TEST_OBJ_DIR = $(PROJECT_DIR)/obj/tests
 export SRC_DIR = $(PROJECT_DIR)/src
